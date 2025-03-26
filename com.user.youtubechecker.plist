@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.youtubechecker</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>check_youtube.sh</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>86400</integer>
+    <key>WorkingDirectory</key>
+    <string>$(pwd)</string>
+    <key>StandardOutPath</key>
+    <string>youtube_checker.log</string>
+    <key>StandardErrorPath</key>
+    <string>youtube_checker_error.log</string>
+</dict>
+</plist> 
